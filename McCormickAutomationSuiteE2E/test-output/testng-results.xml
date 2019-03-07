@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135530" started-at="2019-03-07T20:21:41Z" finished-at="2019-03-07T20:23:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="135530" started-at="2019-03-07T20:21:41Z" finished-at="2019-03-07T20:23:57Z">
+      <class name="org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality">
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality@6a41eaa2]" name="InitiateDriverInstance" is-config="true" duration-ms="16305" started-at="2019-03-07T20:21:42Z" finished-at="2019-03-07T20:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_001_loginfunctinality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality@6a41eaa2]" name="tc_001_loginfunctinality" duration-ms="13539" started-at="2019-03-07T20:21:58Z" data-provider="Excel" finished-at="2019-03-07T20:22:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumit.chawla102@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_loginfunctinality -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality@6a41eaa2]" name="CloseDriverInstance" is-config="true" duration-ms="1027" started-at="2019-03-07T20:22:11Z" finished-at="2019-03-07T20:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality@6a41eaa2]" name="InitiateDriverInstance" is-config="true" duration-ms="13996" started-at="2019-03-07T20:22:12Z" finished-at="2019-03-07T20:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_001_loginfunctinality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality@6a41eaa2]" name="tc_001_loginfunctinality" duration-ms="13438" started-at="2019-03-07T20:22:26Z" data-provider="Excel" finished-at="2019-03-07T20:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongmail@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_loginfunctinality -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality@6a41eaa2]" name="CloseDriverInstance" is-config="true" duration-ms="932" started-at="2019-03-07T20:22:40Z" finished-at="2019-03-07T20:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+      </class> <!-- org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality -->
+      <class name="org.automation.mccormick.testcases.TC_003_ValidateContactUsPageFunctionality">
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_003_ValidateContactUsPageFunctionality@7cd62f43]" name="InitiateDriverInstance" is-config="true" duration-ms="17620" started-at="2019-03-07T20:22:41Z" finished-at="2019-03-07T20:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_003_ContactUSPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.mccormick.testcases.TC_003_ValidateContactUsPageFunctionality@7cd62f43]" name="tc_003_ContactUSPage" duration-ms="20075" started-at="2019-03-07T20:22:59Z" data-provider="Excel" finished-at="2019-03-07T20:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABC123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[This is for contact us form testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_ContactUSPage -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_003_ValidateContactUsPageFunctionality@7cd62f43]" name="CloseDriverInstance" is-config="true" duration-ms="1001" started-at="2019-03-07T20:23:19Z" finished-at="2019-03-07T20:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+      </class> <!-- org.automation.mccormick.testcases.TC_003_ValidateContactUsPageFunctionality -->
+      <class name="org.automation.mccormick.testcases.TC_002_ValidateRegistrationFunctionality">
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_002_ValidateRegistrationFunctionality@6d4b1c02]" name="InitiateDriverInstance" is-config="true" duration-ms="13554" started-at="2019-03-07T20:23:20Z" finished-at="2019-03-07T20:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_002_registration()[pri:0, instance:org.automation.mccormick.testcases.TC_002_ValidateRegistrationFunctionality@6d4b1c02]" name="tc_002_registration" duration-ms="22406" started-at="2019-03-07T20:23:33Z" finished-at="2019-03-07T20:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_registration -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.mccormick.testcases.TC_002_ValidateRegistrationFunctionality@6d4b1c02]" name="CloseDriverInstance" is-config="true" duration-ms="962" started-at="2019-03-07T20:23:56Z" finished-at="2019-03-07T20:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+      </class> <!-- org.automation.mccormick.testcases.TC_002_ValidateRegistrationFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
