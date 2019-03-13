@@ -5,8 +5,6 @@
     <classes>
       <class name="org.automation.mccormick.datagenerator.DataGenerator"/>
       <class name="org.automation.mccormick.testcases.TC_001_ValidateLoginFunctionality"/>
-      <class name="org.automation.mccormick.testcases.TC_003_ValidateContactUsPageFunctionality"/>
-      <class name="org.automation.mccormick.testcases.TC_002_ValidateRegistrationFunctionality"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
