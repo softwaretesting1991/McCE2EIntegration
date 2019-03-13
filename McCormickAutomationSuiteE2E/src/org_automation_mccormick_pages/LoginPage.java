@@ -1,14 +1,14 @@
-package org.automation.mccormick.pages;
+package org_automation_mccormick_pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import org_automation_mccormick_utility.Utility;
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
-import org.automation.mccormick.utility.Utility;
 
 public class LoginPage {
 	

@@ -1,4 +1,4 @@
-package org.automation.mccormick.datagenerator;
+package org_automation_mccormick_datagenerator;
 
 import java.io.FileInputStream;
 import java.lang.reflect.Method;

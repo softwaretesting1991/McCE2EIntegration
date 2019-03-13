@@ -1,13 +1,14 @@
-package org.automation.mccormick.pages;
+package org_automation_mccormick_pages;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.automation.mccormick.utility.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+
+import org_automation_mccormick_utility.Utility;
 
 public class RegistrationPopup {
 

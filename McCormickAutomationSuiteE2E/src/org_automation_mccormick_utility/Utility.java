@@ -1,4 +1,4 @@
-package org.automation.mccormick.utility;
+package org_automation_mccormick_utility;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

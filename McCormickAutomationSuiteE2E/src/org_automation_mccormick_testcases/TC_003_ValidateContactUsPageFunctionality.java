@@ -1,9 +1,10 @@
-package org.automation.mccormick.testcases;
+package org_automation_mccormick_testcases;
 
-import org.automation.mccormick.base.DriverInstance;
-import org.automation.mccormick.datagenerator.DataGenerator;
-import org.automation.mccormick.pages.ContactPageMcCormick;
 import org.testng.annotations.Test;
+
+import org_automation_mccormick_base.DriverInstance;
+import org_automation_mccormick_datagenerator.DataGenerator;
+import org_automation_mccormick_pages.ContactPageMcCormick;
 
 public class TC_003_ValidateContactUsPageFunctionality extends DriverInstance {
 	

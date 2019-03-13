@@ -1,8 +1,7 @@
-package org.automation.mccormick.base;
+package org_automation_mccormick_base;
 
 import java.io.IOException;
 
-import org.automation.mccormick.utility.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,6 +9,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+
+import org_automation_mccormick_utility.Utility;
 
 public class DriverInstance {
 

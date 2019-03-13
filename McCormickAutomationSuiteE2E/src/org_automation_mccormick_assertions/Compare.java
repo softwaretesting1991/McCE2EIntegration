@@ -1,4 +1,4 @@
-package org.automation.mccormick.assertions;
+package org_automation_mccormick_assertions;
 
 import org.openqa.selenium.WebDriver;
 public class Compare {

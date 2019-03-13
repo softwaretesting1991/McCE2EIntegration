@@ -1,11 +1,12 @@
-package org.automation.mccormick.testcases;
+package org_automation_mccormick_testcases;
 
 import java.util.Random;
 
-import org.automation.mccormick.base.DriverInstance;
-import org.automation.mccormick.datagenerator.DataGenerator;
-import org.automation.mccormick.pages.RegistrationPopup;
 import org.testng.annotations.Test;
+
+import org_automation_mccormick_base.DriverInstance;
+import org_automation_mccormick_datagenerator.DataGenerator;
+import org_automation_mccormick_pages.RegistrationPopup;
 
 public class TC_002_ValidateRegistrationFunctionality extends DriverInstance {
 	
