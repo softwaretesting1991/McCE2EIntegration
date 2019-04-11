@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org_automation_mccormick_testcases.TC_003_ValidateContactUsPageFunctionality">
+        <methods>
+          <include name="InitiateDriverInstance"/>
+          <include name="tc_003_ContactUSPage" invocation-numbers="0"/>
+          <include name="CloseDriverInstance"/>
+        </methods>
+      </class> <!-- org_automation_mccormick_testcases.TC_003_ValidateContactUsPageFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

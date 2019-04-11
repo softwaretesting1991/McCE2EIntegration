@@ -1,16 +1,13 @@
 package org_automation_mccormick_pages;
 
-import java.io.IOException;
+
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import org_automation_mccormick_utility.Utility;
 
-public class RegistrationPopup {
+public class RegistrationPopup extends PageFactor {
 
 	WebDriver driver;
 
@@ -21,83 +18,83 @@ public class RegistrationPopup {
 
 	public void ClickLogin() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Login_button_locator_xpath"))).click();
+		LoginButton.click();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_textlink_locator_xpath"))).click();
+		RegistrationButton.click();
 		Thread.sleep(5000);
 	}
 
 	public void EnterFirstName(String FirstName) throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_FirstName_locator_xpath"))).sendKeys(FirstName);
+		FirstNameField.sendKeys(FirstName);
 	}
 
 	public void EnterLastName(String LastName) throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_LastName_locator_xpath"))).sendKeys(LastName);
+		LastNameField.sendKeys(LastName);
 	}
 
 	public void EnterEmail(String Email) throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_Email_locator_xpath"))).sendKeys(Email);
+		EmailField.sendKeys(Email);
 	}
 
 	public void EnterPassword(String Password) throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_Password_locator_xpath"))).sendKeys(Password);
+		PasswordField.sendKeys(Password);
 	}
 
 	public void EnterPrivacyCheck() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_PrivacyCheck_locator_xpath"))).click();
+		PrivacyCheck.click();
 	}
 
 	public void EnterCreateButton() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_CreateAccountbutton_locator_xpath"))).click();		
+		CreateAccount.click();		
 	}	
 	public void SelectBirthYear() throws Exception {
 		
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-		Select birthyear = new Select(driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_SelectBirthYearDropdown_locator_xpath"))));
+		Select birthyear = new Select(BirthYear);
 		birthyear.selectByValue("1991");	
 	}
 	public void ClickCookingStylebutton() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_SelectCookingStyle_locator_xpath"))).click();
+		CookingStyle.click();
 	}
 	public void ClickGetStartedButton() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_GetStartedButton_xpath"))).click();
+		GetStarted.click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	public void Selectcuisine() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_Selectcuisine_xpath"))).click();
+		Cuisine.click();
 	}
 	public void Selectcookingtechniques() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_Selectcookingtechniques_xpath"))).click();
+		CookingTechinique.click();
 	}
 	public void ChooseFlavors() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_ChooseFlavors_xpath"))).click();
+		Flavors.click();
 	}
 	public void ChooseIngredients() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_ChooseIngredients_xpath"))).click();
+		Ingredients.click();
 	}
 	public void ChooseOccasions() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_ChooseOccasions_xpath"))).click();
+		Occasions.click();
 	}
 	public void ChooseBrand() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_ChooseBrand_xpath"))).click();
+		Brand.click();
 	}
 	public void TakeMeFlvorProfie() throws Exception {
 
-		driver.findElement(By.xpath(Utility.fetchelementvalue("Registration_TakeMeFlvorProfie_xpath"))).click();
+		TakeMeFlvorProfie.click();
 		Thread.sleep(10000);
 	}
 }

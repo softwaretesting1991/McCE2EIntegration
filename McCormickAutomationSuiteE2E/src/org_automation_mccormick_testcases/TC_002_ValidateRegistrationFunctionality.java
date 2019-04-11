@@ -2,10 +2,11 @@ package org_automation_mccormick_testcases;
 
 import java.util.Random;
 
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import org_automation_mccormick_base.DriverInstance;
-import org_automation_mccormick_datagenerator.DataGenerator;
+import org_automation_mccormick_pages.PageFactor;
 import org_automation_mccormick_pages.RegistrationPopup;
 
 public class TC_002_ValidateRegistrationFunctionality extends DriverInstance {
@@ -15,6 +16,7 @@ public class TC_002_ValidateRegistrationFunctionality extends DriverInstance {
 		
 		
 		RegistrationPopup registration = new RegistrationPopup(driver);
+		PageFactory.initElements(driver, PageFactor.class);
 		registration.ClickLogin();
 		registration.EnterFirstName("test");
 		registration.EnterLastName("user");
